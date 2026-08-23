@@ -1,0 +1,40 @@
+name: 自动生成 RSS
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "data/articles.json"
+      - "content/*.md"
+      - "gen-rss.js"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gen-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 生成 feed.xml
+        run: node gen-rss.js
+
+      - name: 提交变化
+        run: |
+          if git diff --quiet feed.xml; then
+            echo "feed.xml 无变化，跳过提交"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add feed.xml
+            git commit -m "chore: 自动更新 RSS feed"
+            git push
+          fi

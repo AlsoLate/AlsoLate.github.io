@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "XinToolsAddon",
+      "tag": "开源",
+      "desc": "为 2b2t.xin 等服务器定制的 Meteor Client（Mod）扩展，提供一系列实用功能，让日常生存与探险更顺手。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=ingame%20hud%20of%20a%20minecraft%20utility%20mod%20overlay%20on%20gameplay%2C%20dark%20gui%20with%20menu%20list%2C%20purple%20accent%2C%20gamer%20aesthetic%2C%20cleang&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "url": "https://github.com/AlsoLate/XinToolsAddon",
+      "stars": 3,
+      "tech": ["Java", "Minecraft", "Meteor Client"]
+    },
+    {
+      "id": "2",
+      "title": "MBTFly",
+      "tag": "开源",
+      "desc": "Minecraft Fabric 客户端模组：自动飞行到指定坐标，支持 1.21.1 / 1.21.11，解放双手的飞行小工具。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minecraft%20character%20flying%20with%20elytra%20above%20clouds%20at%20sunset%2C%20smooth%20auto%20flight%20toward%20a%20coordinate%20marker%2C%20soft%20warm%20sky%2C%20gaming%20screenshot&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "url": "https://github.com/AlsoLate/MBTFly",
+      "stars": 1,
+      "tech": ["Java", "Fabric", "Mixin"]
+    }
+  ]
+}

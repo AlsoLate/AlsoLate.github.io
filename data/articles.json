@@ -1,0 +1,95 @@
+{
+  "articles": [
+    {
+      "slug": "smart-questions",
+      "title": "提问的智慧：如何聪明地提出技术问题",
+      "date": "2026-08-23",
+      "category": "转载",
+      "desc": "Eric S. Raymond 的经典之作：怎样提出一个好问题，才能让真正有经验的人愿意回答你。本篇为转载。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minimal%20flat%20illustration%20of%20a%20big%20question%20mark%20with%20a%20keyboard%20and%20chat%20bubbles%2C%20clean%20negative%20space%2C%20soft%20pastel%20background%2C%20editorial%20style&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 0,
+      "tags": ["转载", "思考", "技术"]
+    },
+    {
+      "slug": "hello-world",
+      "title": "你好，世界：一些关于开始的碎碎念",
+      "date": "2026-08-20",
+      "category": "随笔",
+      "desc": "这个博客的开篇。关于为什么开始写作，以及想把这里变成什么样子的地方。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minimal%20white%20desk%20with%20a%20coffee%20cup%20and%20open%20notebook%2C%20soft%20morning%20light%2C%20clean%20negative%20space%2C%20warm%20minimalist%20photography&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 328,
+      "tags": ["生活", "开始"]
+    },
+    {
+      "slug": "css-masonry-layout",
+      "title": "用纯 CSS 实现小红书式瀑布流布局",
+      "date": "2026-08-18",
+      "category": "技术",
+      "desc": "不用任何框架，只靠几行 attribute，就能做出高度错落的信息流排版，手把手拆解实现细节。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=abstract%20waterfall%20of%20colorful%20bricks%20tiles%20flowing%20down%2C%20masonry%20layout%20concept%2C%20soft%20gradient%20palette%2C%20minimal%20flat%20design&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 512,
+      "tags": ["CSS", "前端", "布局"]
+    },
+    {
+      "slug": "a-sunday-afternoon",
+      "title": "一个周日下午的流水账",
+      "date": "2026-08-15",
+      "category": "生活",
+      "desc": "阳光、老街和一杯拿铁。慢生活不是无所事事，而是选择把时间花在哪里。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cozy%20sunday%20afternoon%20cafe%20table%20by%20big%20window%2C%20sunlight%20through%20curtains%2C%20latte%20and%20book%2C%20warm%20tone%2C%20film%20photography&image_size=portrait_4_3",
+      "ratio": "3 / 4",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 274,
+      "tags": ["生活", "随笔"]
+    },
+    {
+      "slug": "writing-is-thinking",
+      "title": "写作即思考：把模糊的想法变得清晰",
+      "date": "2026-08-10",
+      "category": "随笔",
+      "desc": "写作不是为了表达已有的想法，而是为了发现自己的真实想法。一些关于写作的思考。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=typewriter%20and%20scattered%20notes%20on%20wooden%20desk%2C%20soft%20desk%20lamp%20light%2C%20minimal%20depth%20of%20field%2C%20warm%20bokeh&image_size=portrait_4_3",
+      "ratio": "3 / 4",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 199,
+      "tags": ["思考", "写作"]
+    },
+    {
+      "slug": "minimal-design-principles",
+      "title": "极简设计的原则：留白不是浪费",
+      "date": "2026-08-05",
+      "category": "设计",
+      "desc": "大量留白、柔和阴影、圆角元素——极简风格背后是对注意力的尊重。五个我遵循的设计原则。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=minimal%20white%20room%20with%20single%20plant%20and%20cat%20sitting%2C%20huge%20negative%20space%2C%20soft%20shadow%2C%20scandinavian%20minimalism%2C%20clean&image_size=landscape_4_3",
+      "ratio": "4 / 3",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 241,
+      "tags": ["设计", "极简"]
+    },
+    {
+      "slug": "reading-notes-silence",
+      "title": "读书笔记：《沉默的大多数》",
+      "date": "2026-07-28",
+      "category": "书影",
+      "desc": "王小波说，人的一切痛苦，本质上都是对自己无能的愤怒。重读时的几点感触。",
+      "cover": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=stack%20of%20paperback%20books%20with%20a%20teacup%2C%20warm%20reading%20nook%20lighting%2C%20cozy%2C%20minimal%20composition%2C%20book%20photography&image_size=portrait_4_3",
+      "ratio": "3 / 4",
+      "author": "亦迟",
+      "authorShort": "A",
+      "views": 186,
+      "tags": ["读书", "书影"]
+    }
+  ]
+}

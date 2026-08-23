@@ -1,0 +1,9 @@
+{
+  "name": "alsolate-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alisolate 个人博客（纯静态）",
+  "scripts": {
+    "rss": "node gen-rss.js"
+  }
+}

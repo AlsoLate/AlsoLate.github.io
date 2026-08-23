@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>项目 · 亦迟</title>
+  <meta name="description" content="亦迟把念头做出来的东西。">
+  <link rel="alternate" type="application/rss+xml" title="亦迟 RSS" href="feed.xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+        <span class="brand-cn">亦迟</span>
+        <span class="brand-en">ALSOLATE</span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html">主页</a>
+        <a class="nav-link" href="articles.html">文章</a>
+        <a class="nav-link active" href="projects.html">项目</a>
+        <a class="nav-link" href="about.html">关于</a>
+        <a class="nav-gh" href="https://github.com/alsolate" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 .3C5.4.3 0 5.7 0 12.3c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.2-1.3-5.2-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.2 5.7.4.4.8 1.1.8 2.2v3.1c0 .3.2.7.8.6a12.3 12.3 0 0 0 8.2-11.4C24 5.7 18.6.3 12 .3z"/></svg>
+        </a>
+        <button class="theme-toggle" data-tip="切换主题"></button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <div class="kicker">Projects · 把念头做出来</div>
+      <h1>一件件，<em>做出形状</em></h1>
+      <p class="lede">从想法到能真上手用的东西，中间隔一段安静的时光。这里是我挑出来、亲手磨过一遍的作品。</p>
+    </div>
+
+    <div class="pv-list" id="projectList"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 亦迟 / AlsoLate · <a href="about.html">关于我</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
